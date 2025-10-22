@@ -1,0 +1,1 @@
+void rechercheSeq3(int *t,int n );

@@ -1,0 +1,1 @@
+void rechercheDico1(int *t,int n,int x );
