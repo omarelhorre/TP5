@@ -34,7 +34,7 @@ printf("entrer le mot que vous cherchez : ");
 fgets(mot,100,stdin);
 mot[strlen(mot)-1] = '\0';
 rechercheDico(strings,n,mot);
-
+free(strings);
 }
 
 void trierChaine(char **t,int n){

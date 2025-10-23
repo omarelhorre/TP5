@@ -17,7 +17,7 @@ void main(void){
     int x = lireVal();
     rechercheDicoTabTrie(t,limTableauTrie,x);
     rechercheSeq(t+limTableauTrie,n-limTableauTrie,x);
-
+    free(t);
 
 }
 

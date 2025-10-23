@@ -7,4 +7,5 @@ void main(void){
     int *t = (int *) malloc(sizeof(int) * n);
     remplirTab(t,n);
     rechercheSeq3(t,n);
+    free(t);
 }

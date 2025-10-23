@@ -37,4 +37,5 @@ void rechercheMat(int t[L][C], int x){
     }
     if(p==0)printf("trouvé, indice %d %d",i,j);
     else if (p==-1) printf("introuvable");
+    
 }

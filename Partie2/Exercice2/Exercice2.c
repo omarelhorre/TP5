@@ -8,4 +8,5 @@ void main(void){
     int x;
     x = lireVal();
     rechercheDico1(t,n,x);
+    free(t);
 }

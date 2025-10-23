@@ -10,4 +10,5 @@ void main(void){
     rechercheSeq(t,n,x);
     rechercheSeqInv(t,n,x);
     rechercheSeqOcc(t,n,x);
+    free(t);
 }
