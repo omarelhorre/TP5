@@ -23,7 +23,7 @@ void main (void){
 
 void rechercheMat(int t[L][C], int x){
     int i = 0, j = C-1, p = -1;
-    while(i<=L && j>=0){
+    while(i<L && j>=0){
         if(t[i][j] == x){
                 p=0;
                 break;   
@@ -35,7 +35,7 @@ void rechercheMat(int t[L][C], int x){
             i++;
         }
     }
-    if(p==0)printf("trouvé, indice %d %d",i,j);
+    if(p==0)printf("trouvé, [Ligne][Colone] %d %d",i+1,j+1);
     else if (p==-1) printf("introuvable");
-    
+
 }
