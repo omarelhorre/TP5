@@ -34,6 +34,9 @@ printf("entrer le mot que vous cherchez : ");
 fgets(mot,100,stdin);
 mot[strlen(mot)-1] = '\0';
 rechercheDico(strings,n,mot);
+for(int i =0 ; i<n; i++){
+    free(strings[i]);
+}
 free(strings);
 }
 
